@@ -8,5 +8,5 @@ def main(N, W, test_case):
 if __name__=="__main__":
     test_case = ["and", "not", "that", "the", "you"]
     N = int(input())
-    W = list(map(int, input().split()))
+    W = input().split()
     print(main(N, W, test_case))
