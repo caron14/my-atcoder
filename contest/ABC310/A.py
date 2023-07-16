@@ -7,6 +7,5 @@ def main():
 
     return min(tot)
 
-
 if __name__=='__main__':
     print(main())
